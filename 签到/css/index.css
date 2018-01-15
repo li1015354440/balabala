@@ -1,0 +1,169 @@
+header {
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -1;
+	width: 100%;
+	height: 2rem;
+	background: #fca912;
+}
+header .left-b {
+	position: absolute;
+	top: 1.7rem;
+	left: 1.5rem;
+	width: .28rem;
+	height: .6rem;
+	background: url(../img/b.png) no-repeat center;
+	background-size: 100%;
+}
+header .right-b {
+	position: absolute;
+	top: 1.7rem;
+	right: 1.5rem;
+	width: .28rem;
+	height: .6rem;
+	background: url(../img/b.png) no-repeat center;
+	background-size: 100%;
+}
+
+footer {
+	position: absolute;
+	bottom:0;
+	padding-top: .75rem;
+	height: 4rem;
+	background: url(../img/footer.png) no-repeat bottom;
+	background-size: 100%;
+}
+footer h1 {
+	margin-bottom: .3rem;
+	padding-left: .2rem;
+	font-size: .3rem;
+	text-align: left;
+	color: #333;
+}
+footer p {
+	margin-top: .2rem;
+	color: #666;
+	padding: 0 .35rem;
+	text-align: left;
+	line-height: .28rem;
+}
+
+/*签到*/
+.qiandao-box {
+	margin: 0 auto;
+	width: 6.45rem;
+	overflow: hidden;
+	background: rgba(255,255,255,.2);
+	border-radius: .5rem;
+	box-shadow: 0 0 20px 0 #aaa;
+}
+
+.current-date {
+	margin-top: .8rem;
+	height: .5rem;
+	font-size: .5rem;
+	color: #fff;
+	
+}
+.times {
+	margin: .2rem;
+	color: #fff;
+}
+.week {
+	margin-top: 1rem;
+	width: 100%;
+	height: .4rem;
+	
+}
+.week span {
+	display: inline-block;
+	width: .4rem;
+	height: .4rem;
+	margin: .1rem;
+	color: #666;
+	
+}
+
+/*日期列表*/
+.qiandao-list {
+	margin: 0 auto;
+	width: 75%;
+}
+.qiandao-list li {
+	display: inline-block;
+	margin: .1rem;
+	width: .4rem;
+	height: .4rem;
+	border-radius: 50%;
+	line-height: .4rem;
+	color: #333;
+}
+.qiandao-list .able-qiandao {
+	border: 1px solid #fda913;
+}
+.qiandao-list .qiandao {
+	background: #fda913;
+}
+
+/*签到按钮*/
+.qiandao-btn {
+	display: block;
+	margin: .2rem auto;
+	width: 1.7rem;
+	height: .5rem;
+	background: #21d693;
+	line-height: .5rem;
+	color: #fff;
+	border-radius: .07rem;
+}
+
+
+/*弹框*/
+.alert-box {
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 99;
+	width: 100%;
+	height: 100%;
+	background: url(../img/alert-box.png) no-repeat center;
+	background-size: 100%;
+}
+.close-btn {
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+}
+.message {
+	display: none;
+	position: absolute;
+	top: 5.2rem;
+	left: 50%;
+	z-index: 102;
+	padding-top: .8rem;
+	margin-left: -1.72rem;
+	width: 3.44rem;
+	height: 1.88rem;
+	font-size: .3rem;
+	color: #666;
+	background: #fff;
+}
+.jf {
+	position: absolute;
+	top: 5.2rem;
+	left: 50%;
+	z-index: 101;
+	padding-top: 1.45rem;
+	margin-left: -1.72rem;
+	width: 3.44rem;
+	height: 1.88rem;
+	background: url(../img/jf.png) no-repeat center 0.2rem;
+    background-size: 32%;
+    font-size: .3rem;
+    color: #666;
+}

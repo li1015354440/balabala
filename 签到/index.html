@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>签到</title>
+	<script>
+		document.documentElement.style.fontSize = document.documentElement.clientWidth/7.5 +'px';
+		window.onresize = function () {
+		    document.documentElement.style.fontSize = document.documentElement.clientWidth/7.5 +'px';
+		}
+	</script>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	
+	<header>
+		<div class="left-b"></div>
+		<div class="right-b"></div>
+	</header>
+	
+	<!--date start-->
+	<section class="qiandao-box">
+		<div class="current-date">2017年11月16日</div>
+		<div class="times">本月已签到4天</div>
+		<div class="week">
+			<span>日</span>
+			<span>一</span>
+			<span>二</span>
+			<span>三</span>
+			<span>四</span>
+			<span>五</span>
+			<span>六</span>
+		</div>
+		<ul class="qiandao-list" id="qiandao_list"></ul>
+		<a href="javascript:;" class="qiandao-btn" id="qiandao_btn">签到</a>
+	</section>
+	
+	<!--弹框-->
+	<div class="alert-box qiandao-active ">
+		<a href="javascript:;" class="close-btn"></a>
+		<div class="message"  id="mjf">恭喜您签到成功！</div>
+		<!--获得积分时-->
+		<div class="jf">恭喜您获得10积分！</div>
+	</div>
+	<!--date end-->
+	
+	<footer>
+		<h1>签到规则</h1>
+		<p>1、首次签到可获得10积分，连续签到比前一天多3积分。</p>
+		<p>2、连续签到天数以自然月为周期，每月初重新计算。</p>
+		<p>3、如中途间断，签到天数重新计算。</p>
+		<p>4、对不正当手段（包括但不限于作弊、扰乱系统、实施网络攻 击等）获得积分的用户，平台有权禁止其参与活动，并取消其所 获得的福利</p>
+	</footer>
+	
+	<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
